@@ -1,6 +1,6 @@
 @echo off
-REM Stop de container
+Stop de container
 docker stop demo-site-container
 
-REM Verwijder de container
+Verwijder de container
 docker rm demo-site-container
